@@ -17,13 +17,12 @@ yarn add dir-tree-obj
 Assume a directory named `dir` with the following structure:
 
 ```
-│  a.txt
-│  b.txt
-│
-└─sub
-        a.js
-        a.txt
-        b.txt
+├── a.txt
+├── b.txt
+└── sub
+    ├── a.js
+    ├── a.txt
+    └── b.txt
 ```
 
 ```ts
